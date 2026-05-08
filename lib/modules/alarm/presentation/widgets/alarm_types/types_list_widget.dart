@@ -101,7 +101,7 @@ class TypesListWidget extends StatelessWidget {
                     );
                   },
                 ),
-                separatorBuilder: (_, _) =>
+                separatorBuilder: (context, index) =>
                     const Divider(thickness: 1, height: 32),
               ),
             ),
