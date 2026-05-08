@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:thingsboard_app/modules/main/main_navigation_item.dart';
 
 class TbNavigationBarWidget extends StatelessWidget {
@@ -46,14 +45,14 @@ class TbNavigationBarWidget extends StatelessWidget {
                 lineIndicatorWidth: lineIndicatorWidth,
                 index: index,
                 onTap: onTap,
-                selectedTextStyle: GoogleFonts.roboto(
+                selectedTextStyle: const TextStyle(
                   fontSize: 12,
                   fontWeight: FontWeight.w500,
                   height: 1.3,
                   letterSpacing: .4,
                   color: bottomTheme.selectedItemColor,
                 ),
-                unSelectedTextStyle: GoogleFonts.roboto(
+                unSelectedTextStyle: const TextStyle(
                   fontSize: 12,
                   fontWeight: FontWeight.w500,
                   height: 1.3,
