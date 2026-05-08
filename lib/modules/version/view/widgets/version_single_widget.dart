@@ -51,7 +51,7 @@ class _VersionSingleState extends TbContextState<VersionSingleWidget>
                 child: SingleChildScrollView(
                   child: Html(
                     data: widget.notes,
-                    onLinkTap: (link, _, _) {
+                    onLinkTap: (link, _, __) {
                       if (link != null) {
                         launchUrlString(
                           link,
