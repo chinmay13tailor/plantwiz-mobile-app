@@ -36,7 +36,6 @@ class TbAppBar extends TbContextWidget implements PreferredSizeWidget {
 }
 
 class _TbAppBarState extends TbContextState<TbAppBar> {
-  final _controller = SuperTooltipController();
   @override
   Widget build(BuildContext context) {
     final List<Widget> children = <Widget>[];
@@ -131,7 +130,7 @@ class _TbAppBarState extends TbContextState<TbAppBar> {
                 fontWeight: FontWeight.w500,
               ),
             ),
-            barrierColor: Colors.transparent,
+      
             child: InkWell(
               onTap: () {
                 _controller.showTooltip();
