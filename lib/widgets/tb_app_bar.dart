@@ -131,7 +131,6 @@ class _TbAppBarState extends TbContextState<TbAppBar> {
                 fontWeight: FontWeight.w500,
               ),
             ),
-            controller: _controller,
             barrierColor: Colors.transparent,
             child: InkWell(
               onTap: () {
