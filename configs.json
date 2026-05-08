@@ -1,0 +1,11 @@
+{
+  "thingsboardApiEndpoint": "https://plantwiz.pimateck.in",
+  "appLinksUrlHost": "plantwiz.pimateck.in",
+  "appLinksUrlScheme": "https",
+  "registrationRedirectUrlScheme": "tbscheme",
+  "registrationRedirectUrlHost": "app.plantwiz.pimateck.in",
+  "androidApplicationId": "in.pimateck.plantWiz",
+  "androidApplicationName": "PlantWiz",
+  "thingsboardOAuth2CallbackUrlScheme": "in.pimateck.plantWiz.auth",
+  "thingsboardAndroidAppSecret": "Z1BGakY2ODVyY2N1NkJQdFhmM3FCYkNNYTV1RU1XSmFmeFdWTXNubXBHd0R5ZGcwRE5uYTBGQ1VvSnBRR0VROA=="
+}
