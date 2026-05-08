@@ -66,7 +66,7 @@ class _MainPageState extends TbPageState<MainPage>
                       builder: (context, state, child) => TbNavigationBarWidget(
                         currentIndex: _currentIndexNotifier.value,
                         onTap: (index) => _setIndex(index),
-                        customBottomBarItems: widget.items,
+                        customBottomBarItems: mainNavigationItems,
                       ),
                     ),
                   );
