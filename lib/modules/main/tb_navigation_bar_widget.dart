@@ -45,14 +45,14 @@ class TbNavigationBarWidget extends StatelessWidget {
                 lineIndicatorWidth: lineIndicatorWidth,
                 index: index,
                 onTap: onTap,
-                selectedTextStyle: const TextStyle(
+                selectedTextStyle:  TextStyle(
                   fontSize: 12,
                   fontWeight: FontWeight.w500,
                   height: 1.3,
                   letterSpacing: .4,
                   color: bottomTheme.selectedItemColor,
                 ),
-                unSelectedTextStyle: const TextStyle(
+                unSelectedTextStyle:  TextStyle(
                   fontSize: 12,
                   fontWeight: FontWeight.w500,
                   height: 1.3,
