@@ -124,18 +124,6 @@ class _TbAppBarState extends TbContextState<TbAppBar> {
             borderColor: Colors.transparent,
             popupDirection: TooltipDirection.left,
 
-            boxShadow: [
-              BoxShadow(
-                color: AppColors.black.withValues(alpha: .15),
-                blurRadius: 6,
-                spreadRadius: 2,
-              ),
-              BoxShadow(
-                color: AppColors.black.withValues(alpha: .3),
-                blurRadius: 2,
-                offset: const Offset(0, 1),
-              ),
-            ],
             shadowColor: Colors.transparent,
             content: Text(
               text.data ?? '',
