@@ -63,7 +63,7 @@ class _MainPageState extends TbPageState<MainPage>
                     ),
                     bottomNavigationBar: ValueListenableBuilder<int>(
                       valueListenable: _currentIndexNotifier,
-                      builder: (_, _, _) => TbNavigationBarWidget(
+                      builder: (context, state, child) => TbNavigationBarWidget(
                         currentIndex: _currentIndexNotifier.value,
                         onTap: (index) => _setIndex(index),
                         customBottomBarItems: state.items,
