@@ -82,7 +82,7 @@ class _AlarmActivityWidgetState extends State<AlarmActivityWidget> {
                           getIt<AlarmActivityPaginationRepository>()
                               .pagingController,
                       builderDelegate: PagedChildBuilderDelegate(
-                        itemBuilder: (_, activity, _) {
+                        itemBuilder: (context, activity, index) {
                           return ActivityBuilderWidget(
                             activity,
                             userId: widget.tbContext.userDetails!.id!,
