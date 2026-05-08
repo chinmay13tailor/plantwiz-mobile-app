@@ -115,32 +115,6 @@ class _TbAppBarState extends TbContextState<TbAppBar> {
       overflowReplacement: Row(
         children: [
           Flexible(child: text),
-          SuperTooltip(
-            borderRadius: 4,
-            arrowLength: 8,
-            arrowBaseWidth: 16,
-            top: padding,
-            borderColor: Colors.transparent,
-            popupDirection: TooltipDirection.left,
-
-            shadowColor: Colors.transparent,
-            content: Text(
-              text.data ?? '',
-              style: TbTextStyles.labelSmall.copyWith(
-                fontWeight: FontWeight.w500,
-              ),
-            ),
-      
-            child: InkWell(
-              onTap: () {
-                _controller.showTooltip();
-              },
-              child: const Padding(
-                padding: EdgeInsets.all(4),
-                child: Icon(Icons.info_outline),
-              ),
-            ),
-          ),
         ],
       ),
       minFontSize: text.style?.fontSize ?? 12,
