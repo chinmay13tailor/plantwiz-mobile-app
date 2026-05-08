@@ -2,7 +2,7 @@ workflows:
   ios-simulator-build:
     name: iOS Simulator Build
     environment:
-      flutter: stable
+      flutter: "3.24.5"
       xcode: latest
 
     scripts:
