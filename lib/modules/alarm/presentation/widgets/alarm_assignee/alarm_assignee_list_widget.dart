@@ -236,7 +236,7 @@ class _AssigneeListWidgetState extends State<AlarmAssigneeListWidget> {
                     );
                   },
                 ),
-                separatorBuilder: (_, _) {
+                separatorBuilder: (context, index) {
                   return const SizedBox(height: 16);
                 },
               ),
