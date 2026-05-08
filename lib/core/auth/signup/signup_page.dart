@@ -177,7 +177,7 @@ class _SignUpPageState extends TbPageState<SignUpPage> {
                                                       !_showRepeatPassword),
                                                 );
                                               },
-                                              separatorBuilder: (_, _) =>
+                                              separatorBuilder: (_, __) =>
                                                   const SizedBox(height: 12),
                                               itemCount: state
                                                   .selfRegistrationParams!
